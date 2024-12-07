@@ -1,0 +1,27 @@
+{
+  "name": "first-node",
+  "version": "1.0.0",
+  "main": "files.js",
+  "directories": {
+    "doc": "views"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "build:css": "npx tailwindcss -i ./src/styles.css -o ./public/styles.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "lodash": "^4.17.21",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.8.2",
+    "morgan": "^1.10.0",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15"
+  }
+}
